@@ -1,11 +1,12 @@
 import webbrowser
 
 
+# Class Movie creates objects in entertainment_center.py
 class Movie():
     """ This class provides a way to store movie related information"""
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
-    # Initialization of class function to display information to web browser
+    # Initialization of variables to display all relavant infomation
     def __init__(self,
                  movie_title,
                  movie_storyline,
